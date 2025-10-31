@@ -1,4 +1,4 @@
-package com.kkuk.jwt.repository;
+package com.kkuk.jwt;
 
 import java.util.ArrayList;
 
@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.kkuk.jwt.entity.User;
+import com.kkuk.jwt.repository.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService  {
